@@ -172,10 +172,10 @@ limitations under the License.
                                     
                                 </select>
                             </div>
-                            <div class="large-2 columns">
+                            <!-- <div class="large-2 columns">
                                 <label>Retain</label>
                                 <input id="publishRetain" type="checkbox" value="1">
-                            </div>
+                            </div> -->
                             <div class="large-2 columns">
                                 <a class="small button" id="publishButton"
                                    onclick="websocketclient.publish($('#publishTopic').val(),$('#publishPayload').val(),parseInt($('#publishQoSInput').val(),10),$('#publishRetain').is(':checked'))">Publish</a>
